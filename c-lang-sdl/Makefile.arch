@@ -1,0 +1,6 @@
+all: sdltest
+
+sdltest: main.cpp
+	g++ main.cpp -lSDL2main -lSDL2 -o sdltest
+
+

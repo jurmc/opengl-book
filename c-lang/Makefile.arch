@@ -1,7 +1,7 @@
 all: opengltest
 
 opengltest: main.cpp
-	g++ main.cpp -o opengltest -lopengl32 -lglew32 -lfreeglut -lglu32
+	g++ main.cpp -o opengltest -lGL -lGLEW -lglut
 
 clean:
 	rm -f opengltest *.o
